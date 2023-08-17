@@ -1,0 +1,147 @@
+.buttonDiv {
+    border: none;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+
+}
+
+
+
+.buttonDiv .desabled__Button{
+    border: none;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    height:35px;
+    align-items: center;
+    position: relative;
+    top:34px;
+    background-color: rgb(39, 184, 184);
+    /* border-radius: 5px; */
+    cursor: pointer;
+}
+
+
+.buttonDiv .desabled__Button:active{
+    background-color: #91def3;
+
+}
+
+
+/* .AboutContainer{
+    height:100%;
+} */
+
+.imageContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.imageDiv img{
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+
+}
+.details{
+    width: 30rem;
+    padding-top: 20px;
+    margin: 0  auto;
+    /* padding-left: 2rem; */
+    
+    }
+
+
+.details p{
+font-size: 15px;    
+white-space: pre-line;
+
+}
+.details p span{
+    font-size: 20px;    
+    white-space: pre-line;
+
+}
+
+.imageslist{
+    padding: 5rem 40px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between;     */
+    gap: 3rem;
+  
+
+
+    
+    
+}
+
+.listDivs{
+    width: 16rem;
+    height: 16rem;
+    /* border: 1px solid  rgb(190, 189, 189); */
+    margin-bottom: 1rem;
+    overflow: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: .5px  .5px 1px 1px rgb(197, 197, 197) ;
+
+}
+
+.listDivs img{
+    width: 100%;
+    height: 100%;
+}
+.detailsView{
+    padding: 1rem;
+}
+
+.image__container{
+    width: 30rem;
+    height: 22rem;
+    margin:0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.image__container img{
+    width: 100%;;
+    height: 100%;
+    object-fit:fill;
+}
+
+
+.navigate__container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px ;
+}
+.navigate__container button{
+    width: 5%;
+    background-color: rgb(81, 80, 80);
+    border: none;
+    height: 25px;
+    border-radius:2px;
+    cursor: pointer; 
+}
+
+.add__cart__buttton{
+    height: 30px;
+    padding-top: 13px;
+}
+
+
+.add__cart__buttton button{
+    width: 500px;
+    height: 30px;
+    background-color: #0fb0dc;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.add__cart__buttton button:active{
+    background-color: #66d3f1;
+
+}

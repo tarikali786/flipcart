@@ -1,0 +1,76 @@
+
+.shipping_item{
+  box-shadow: .5px .5px 10px 5px rgb(194, 242, 242);
+  width: 30rem;
+  margin: 0 auto;
+  position: relative;
+  top: 10rem;
+  padding:  1rem 0;
+  background-color:  rgb(221, 243, 251) ;
+
+}
+.price_dev__container{
+    display: flex;
+    justify-content:space-between;
+    padding: 2rem 1rem;
+}
+
+.price_dev__container span {
+    font-size: 18px;
+    color: green;
+}
+
+.succuss_dev{
+    margin: 0 auto;
+    width: 40rem;
+    height: 22rem;
+    position: relative;
+    top: 6rem;
+    overflow: hidden;
+    text-align:center;
+    background-color: rgb(215, 245, 249);
+    border-radius: 10px;
+
+}
+
+.checkmark__container{
+    height: 10rem;
+    text-align: center;
+    transform: rotate(12deg);
+    padding-bottom: 1rem;
+
+
+
+}
+.checkmark__container i{
+    font-size: 12rem;
+    color: #9ABC66;
+    line-height: 200px;
+    margin-left:-15px;
+
+}
+
+.succuss_dev h1{
+    align-items: center;
+    position: relative;
+}
+
+.success_text_block h1{
+    color: #88B04B;
+    font-weight: 900;
+
+
+}
+.success_text_block p{
+    font-weight: 500;
+    padding-top: 1rem;
+    text-align:center;
+
+
+
+}
+
+/*  */
+
+
+/*  */
